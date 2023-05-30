@@ -5,9 +5,10 @@
     padding:0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 header{
-    background-color: #c1cfbd;
+    background-color:#c1cfbd;
     width: 100%;
     position: fixed;
     z-index: 1000;
@@ -23,12 +24,14 @@ header{
     font-weight: 700;
     font-size: 1.8em;
 }
+
 .navigation a{
     text-decoration: none;
     color:rgb(27, 165, 147);
     font-weight: 500;
     font-size: 1.1em;
     padding-left: 30px;
+    
 }
 .navigation a:hover{
     color: rgb(15, 104, 93,0.7);
@@ -139,17 +142,18 @@ body::before{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.Certificates{
+.Certificates, .resource{
     background-color:#c1cfbd ;
 }
 .Certificates .content{
     margin-top: 30px;
+    width: 100%;
 }
 .Certificates-card{
     background-color:  rgb(27, 165, 147);
     border:10px solid  rgb(27, 165, 147) ;
     min-height: 14em;
-    width: 28.5em;
+    width: 22em;
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
@@ -160,14 +164,9 @@ body::before{
     transform: scale(1.1);
     
 }
-.Certificates-imgs {
-    display: flex;
-    justify-content: space-between;
 
-}
 .Certificates-imgs img{
     width: 100%;
-    image-resolution: 100%;
 }
 .Certificates-info a{
     text-decoration: none;
@@ -276,7 +275,7 @@ body::before{
 
 .project-card:hover .project-image {
     opacity: 0.9;
- }
+}
 
 @media (max-width:1023px){
     header{
@@ -329,4 +328,10 @@ body::before{
         font-size: 10px;
     
     }
+}
+.soon{
+    position: relative;
+    left: 140px;
+    top:80px;
+
 }
