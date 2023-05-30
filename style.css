@@ -276,6 +276,13 @@ body::before{
 .project-card:hover .project-image {
     opacity: 0.9;
 }
+.soon{
+    position: relative;
+    left: 140px;
+    top:80px;
+
+}
+
 
 @media (max-width:1023px){
     header{
@@ -328,10 +335,4 @@ body::before{
         font-size: 10px;
     
     }
-}
-.soon{
-    position: relative;
-    left: 140px;
-    top:80px;
-
 }
